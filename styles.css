@@ -1,0 +1,412 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+::-webkit-scrollbar{
+width: 4px;
+background-color: gray;
+
+
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+  background: linear-gradient(red,orange,yellow);
+}
+
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  padding: 20px;
+
+  color: white;
+  margin: auto;
+}
+
+nav,
+.left,
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.delievery,
+.pickup {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.bucket {
+  position: relative;
+}
+
+.bucket h6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+}
+
+.right button {
+  background-color: #ea002a;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+}
+
+.right button:hover {
+  cursor: pointer;
+}
+
+.delievery {
+  border: 2px solid #ea002a;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  background-color: #1c1816;
+  color: white;
+}
+
+.pickup {
+  border: 2px solid #ea002a;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  background-color: #1c1816;
+  color: white;
+}
+
+.left i {
+  font-size: 2rem;
+}
+
+.delievery:hover {
+  cursor: pointer;
+}
+.pickup:hover {
+  cursor: pointer;
+}
+
+.front {
+  background-image: url("https://www.kfcpakistan.com/images/494fb5b0-c127-11ee-8518-c1658f26e97a-995x356_desktop_image-2024-02-01172817.jpg");
+  height: 79vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.explore {
+  width: 80%;
+  margin: auto;
+  padding: 3%;
+}
+
+.e-text {
+  text-transform: uppercase;
+}
+
+.reorder button {
+  width: 45%;
+  display: block;
+  margin: 0.7rem auto;
+  padding: 0.5rem;
+  border: none;
+  background-color: #ea002a;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.round-cards {
+  display: flex;
+  gap: 1.2rem;
+  padding-top: 50px;
+  
+}
+
+.e-cards img {
+  width: 100%;
+}
+
+.explore hr {
+  width: 5%;
+  background-color: #ea002a;
+  height: 3px;
+  border: none;
+}
+.explore h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.e-cards{
+padding: 2rem;
+background-color: #1C1816;
+border-radius: 50% 50% 10px 50%;
+transition: all 0.4s; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.3rem;
+}
+
+.e-cards:hover{
+
+transform: translateY(-10%);
+
+
+}
+
+
+.e-cards hr{
+
+width: 40%;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+  }
+
+  .i-text{
+    font-size: 12px;
+  }
+
+.i-text hr{
+width: 7.9%;
+background-color: #ea002a;
+border: #ea002a;
+height: 3px;
+
+
+
+}
+
+
+  .plain-cards{
+
+display: flex;
+gap: 2rem;
+margin: 1rem;
+height: 50vh;
+width: 100%;
+  }
+
+.p-cards{
+
+background-color: #1C1816;
+display: flex;
+flex-direction: column-reverse;
+padding: 1rem;
+font-size: 25px;
+
+
+
+
+
+}
+
+
+  .p-cards img{
+    width: 100%;
+  }
+
+
+.selling{
+  width: 80%;
+  margin: auto;
+}
+
+
+.selling-cards{
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.scard{
+
+background-color: #1C1816;
+padding: 0 0 0 1rem;
+
+}
+
+
+.price{
+
+
+  clip-path: polygon(100% 0, 100% 50%, 100% 99%, 0% 100%, 11% 51%, 0% 0%);
+  background-color: #ea002a;
+  text-align: right;
+  width: 30%;
+  margin-left: auto;
+  padding: 0.3rem;
+
+
+}
+
+.title{
+margin: 1rem 0;
+
+}
+
+.dots{
+  background-color: #ea002a;
+  height: 30px;
+  width: 20px;
+  
+}
+
+.red-dots{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  
+  
+
+}
+
+
+.selling-cards h2{
+  font-size: 20px;
+}
+
+.s-text hr{
+  width: 6%;
+  background-color: #ea002a;
+  border: #ea002a;
+  height: 3px;
+}
+
+.s-text h1{
+  font-size: 20px;
+}
+
+
+.top-deals{
+width: 80%;
+margin: auto;
+
+}
+
+.top-cards{
+  display: flex;
+  gap: 1rem;
+ 
+  margin: 1rem 0;
+}
+
+.topcards{
+  padding: 0 0 1rem 1rem;
+background-color: #1C1816;
+border-radius: 7px;
+position: relative;
+
+}
+
+.topcards .desc{
+  
+  font-size: 10px;
+  margin: 0.4rem 0;
+  font-weight: bold;
+}
+
+.topcards .t-price{
+
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+
+.top-image{
+
+overflow: hidden;
+
+}
+
+.top-img{
+  transition: all 0.4s;
+}
+
+.topcards:hover .top-img{
+
+  scale: 1.2;
+
+}
+
+.topcards i{
+  color: #ea002a;
+  position: absolute;
+  right: 0.6rem;
+  top: 1.5rem;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.topcards:hover i{
+scale: 1.1;
+font-weight: bolder;
+
+}
+
+.top-deals h1{
+
+  font-size: 25px;
+}
+
+.top-deals hr {
+
+  width: 6%;
+  background-color: #ea002a;
+  border: #ea002a;
+  height: 3px;
+
+}
+
+.t-button button{
+
+
+  background-color: #ea002a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem ;
+  font-size: 10px;
+  font-weight: bolder;
+  margin: auto;
+  display: block;
+  margin-bottom: -2rem;
+  transition: all 0.4s;
+}
+.t-button:hover button{
+
+background-color: white;
+color:#ea002a;
+border: 1px solid #ea002a;
+transform: translateY(-3px);
+
+}
